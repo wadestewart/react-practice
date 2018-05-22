@@ -4,6 +4,6 @@ import './index.css';
 import Hello from './Hello';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Hello />, 
+ReactDOM.render(<Hello name={'Wade'}/>, 
     document.getElementById('root'));
     registerServiceWorker();
