@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './Hello';
+import Insta from './Insta';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Hello />, div);
+  ReactDOM.render(<Insta />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
